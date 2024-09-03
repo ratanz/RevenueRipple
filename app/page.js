@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className="flex justify-center flex-col gap-4 items-center text-white h-[44vh] px-5 md:px-0 text-xs md:text-base">
         <div className="font-bold md:text-5xl flex gap-4 justify-center items-center text-3xl ">Buy Me a Chai
-          <span><img className="invertImg" src="\tea.gif" width={52} alt="" /></span></div>
+          <span><Image className="invertImg" src="/tea.gif" width={52} height={52} alt="" /></span></div>
         <p className="text-center md:text-left">
           A crowdfunding platform for developers. Get funded by your fans and followers. Start now!
         </p>
@@ -33,17 +33,17 @@ export default function Home() {
         </h2>
         <div className="flex gap-5 justify-around  ">
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" src="/man.gif" width={62} alt="" />
+            <Image className="bg-slate-400 rounded-full p-2 text-black" src="/man.gif" width={62} height={62} alt="" />
             <p className="font-bold text-center">Fund yourself</p>
             <p className="text-center">Your fans are available for you to help</p>
           </div>
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" src="/coin.gif" width={62} alt="" />
+            <Image className="bg-slate-400 rounded-full p-2 text-black" src="/coin.gif" width={62} height={62} alt="" />
             <p className="font-bold text-center">Fund yourself</p>
             <p className="text-center">Your fans are available for you to help</p>
           </div>
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" src="/group.gif" width={62} alt="" />
+            <Image className="bg-slate-400 rounded-full p-2 text-black" src="/group.gif" width={62} height={62} alt="" />
             <p className="font-bold text-center">Fans want to help</p>
             <p className="text-center">Your fans are available for you to help</p>
           </div>
